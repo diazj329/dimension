@@ -15,8 +15,12 @@
     </div>
     <div class="content">
       <div class="inner">
+        <br/>
+        <br/>
         <h1>{{ .Site.Title | safeHTML }}</h1>
-        <p>Venganse a festejar</p>
+        <br/>
+        <p style="line-height:0.2"><b>{{ .Site.Params.description1 | safeHTML }}<b/></p>
+        <p style="line-height:0.2"><b>{{ .Site.Params.description2 | safeHTML }}<b/></p>
         <p>{{ .Site.Params.description | safeHTML }}</p>
       </div>
     </div>
